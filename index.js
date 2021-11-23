@@ -2,7 +2,7 @@ function scuberGreetingForFeet(numOfFeet){
   // create result var
   let greeting = '';
 
-  if (numOfFeet < 200) {
+  if (numOfFeet < 400) {
     greeting = 'This one is on me!';
   } else if (numOfFeet > 2000 && numOfFeet < 2500) {
     greeting = 'I will gladly take your thirty bucks.';
